@@ -23,7 +23,7 @@
 } 
 
 #pushyPenguinGameContainer canvas {
-	background-image: url("../images/snow\ \(1\).png");
+	background-image: url("./images/snow\ \(1\).png");
 	border: 1px solid black;
 	height: 700px;
 	width: 400px;

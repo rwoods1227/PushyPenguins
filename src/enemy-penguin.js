@@ -77,7 +77,7 @@ class Enemy{
      this.positionX = props.positionX
      this.positionY = 2;
      this.enemy = new Image();
-     this.enemy.src = '../images/paperMarioPenguin.png';
+     this.enemy.src = '../dist/images/paperMarioPenguin.png';
 
   }
 
@@ -126,17 +126,18 @@ class Enemy{
     // Check x and y for overlap
     let x1 = this.positionX;
     let x2 = otherObject.positionX;
-    let y1 = this.positionY;
+    let y1 = this.positionY + this.SCALED_HEIGHT - 5;
     let y2 = otherObject.positionY;
     let w1 = this.SCALED_WIDTH;
     let w2 = otherObject.SCALED_WIDTH;
-    let h1 = this.SCALED_HEIGHT;
+    let h1 = 5;// putting at 5 here to make the hit box with y1
     let h2 = otherObject.SCALED_HEIGHT;
     if (x2 > w1 + x1 || x1 > w2 + x2 || y2 > h1 + y1 || y1 > h2 + y2) {
       return false;
     }
     return true;
   }
+
 
   remove() {
     this.game.remove(this);
@@ -145,7 +146,8 @@ class Enemy{
 
   collideWith(otherObject) {
     if (otherObject instanceof Penguin) {
-      otherObject.velY = this.MOVEMENT_SPEED;
+       otherObject.velY = this.MOVEMENT_SPEED;
+       otherObject.positionY += 0.05;
       return true;
     } 
     return false;
