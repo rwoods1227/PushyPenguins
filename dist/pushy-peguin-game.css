@@ -1,0 +1,30 @@
+ /* #score {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+} */
+
+#pushyPenguinGameContainer{
+	display: flex;
+	align-items: center;
+	position: relative;
+	/* background-image: url("./images/snow.png"); */
+	/* background-size: 400px 500px; */
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-left: 30%;
+} 
+
+#pushyPenguinGameContainer canvas {
+	background-image: url("../images/snow\ \(1\).png");
+	border: 1px solid black;
+	height: 700px;
+	width: 400px;
+}
