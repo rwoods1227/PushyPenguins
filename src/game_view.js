@@ -72,8 +72,8 @@ class GameView{
       this.i = 1500;
     }
     if(time > this.i){
-      this.game.addEnemies(Math.ceil(Math.random() * 1.10));
-      this.i += 2000;
+      this.game.addEnemies(Math.ceil(Math.random() * 1.05));
+      this.i += 3500;
     }
 
     this.game.step(timeDelta);// similar to moveCharacter

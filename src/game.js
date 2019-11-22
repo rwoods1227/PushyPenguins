@@ -27,7 +27,7 @@ class Game{
 
   addEnemies(enemy_number) {
     for (let i = 0; i < enemy_number; i++) {
-      let enemy = new Enemy({ game: this, positionX: Math.random() * 275 })
+      let enemy = new Enemy({ game: this, positionX: Math.random() * 275, movementSpeed: (Math.random() + 0.2)})
       this.add(enemy);
       // enemy.loadImage();
     }

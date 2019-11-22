@@ -68,7 +68,7 @@ class Enemy{
     this.SCALED_HEIGHT = this.SCALE * this.HEIGHT;
     this.CYCLE_LOOP = [0, 47, 101, 144];
     this.FRAME_LIMIT = 12;
-    this.MOVEMENT_SPEED = 0.5;
+    this.MOVEMENT_SPEED = props.movementSpeed;
     this.game = props.game;
 
      this.currentDirection = 3;
@@ -115,7 +115,7 @@ class Enemy{
     // let pos = [this.positionX, this.positionY];
     if (this.game.isOutOfBounds([this.positionX, this.positionY])) {
       
-      this.game.addEnemies(Math.ceil(Math.random() * 1.05));
+      this.game.addEnemies(Math.ceil(Math.random() * 1.02));
       this.remove();
       }
     
