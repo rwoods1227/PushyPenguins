@@ -128,12 +128,25 @@ class GameView{
     }
     time = time - this.startTime;
 
-    if (time > 25000){
+    if (time > 80000){
+
+      this.game.allObjects().forEach(object => {
+        this.game.remove(object);
+      });
+      this.game.draw(this.ctx)
+        
+      //this.ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
       document.getElementById("pushy-penguin").classList.add(this.goodEnd)
       document.getElementById("story").classList.remove("hidden");
       document.getElementById("story-text").innerHTML = "You Win, refresh to play again";
       return true
     } else if (this.game.lose){
+     
+      this.game.allObjects().forEach(object => {
+        this.game.remove(object);
+      });
+      this.game.draw(this.ctx)
+      //this.ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
       document.getElementById("pushy-penguin").classList.add(this.badEnd)
       document.getElementById("story").classList.remove("hidden");
       document.getElementById("story-text").innerHTML = "You Lose, refresh to try again";
