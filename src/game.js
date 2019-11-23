@@ -80,7 +80,7 @@ class Game{
 
   isOutOfBounds(pos) {
     return (pos[0] < 0) || (pos[1] < 0) ||
-      (pos[0] > this.canvasWidth) || (pos[1] > 150);
+      (pos[0] > 285) || (pos[1] > 150);
   };
 
 

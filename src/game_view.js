@@ -25,11 +25,11 @@ class GameView{
     this.openingClass7 = "gameTime";
 
     this.openingText1 = "The following expostion is based(loosely) on the events of a real Penguin: \n \n  One day, Grape-Kun, a penguin living at the Tobu Zoo in Japan, found true love. His enclosure now contained stoic female penguin, who was more beautiful than any other. \n\n Click Next To continue the story";
-    this.openingText2 = "Grape-Kun and Hululu enjoyed many amazing months together. Hululu would remain on her stone platform while Grape-kun spent as much time as possible with her.";
-    this.openingText3 = "But the happy times soon ended. The Zookeepers decided to snatch away his beloved Hululu no matter how hard he pleaded.";
-    this.openingText4 = "As he watched her go, Grape-kun was filled with despair. He was certain that he would never see Hululu again. He grew weaker and almost gave up hope.";
-    this.openingText5 = "But then he saw her, shimmering like an angel inside the zookeper's office. Grape-kun mustered up all of his remaining stength and broke out of his enclosure and into the office. In front of the shining doorway to another world, Grape-kun faked his death and leapt inside....";
-    this.openingText6 = "This game provides an alternate ending to the real-life death of a penguin who fell in love with a 2D penguin-girl and died due to this love and heartbreak regarding said Hululu. \n \n Help Grape-Kun get his happily-ever after by navigating him through a swarm of pushy 2D penguins that try to push him into deadly waters. If Grape-Kun touches any border, the game will be lost. \n\n Use common WASD controls to move Grape-Kun through the penguins and survive long enough for a good-end";
+    this.openingText2 = "Grape-Kun and Hululu(the female penguin) enjoyed many amazing months together. Hululu would remain on her stone platform while Grape-kun spent as much time as possible dancing, eating and being next to her.";
+    this.openingText3 = "But these happy times soon ended. The Zookeepers of his zoo decided to snatch away his beloved Hululu no matter how hard he pleaded.";
+    this.openingText4 = "As he watched her go, Grape-kun was filled with despair. He thought that he would never see Hululu again. He grew weaker and almost gave up hope.";
+    this.openingText5 = "But then he saw her, shimmering like an angel inside the zookeper's office. Grape-kun mustered up all of his remaining stength and broke out of his enclosure and waddled into the office. In front of the shining doorway to another world, Grape-kun faked his own death and leapt inside...";
+    this.openingText6 = "This game provides an alternate ending to the real-life death of a penguin who fell in love with a 2D penguin-girl and died due to this love and subsequent heartbreak regarding said Hululu. \n \n Help Grape-Kun get his happily-ever-after by navigating him through a swarm of pushy 2D penguins that will to push him into deadly waters. If Grape-Kun touches any border, the game will be lost. \n\n Use common WASD controls to move Grape-Kun through the penguins and survive long enough(~80sec) for a good-end";
     this.openingText7 = "gameTime";
 
     this.goodEnd = "good-end";
