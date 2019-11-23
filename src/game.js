@@ -11,6 +11,8 @@ class Game{
     this.canvasWidth = 400;
 
     this.addEnemies(4);
+    this.won = false;
+    this.lose = false;
 
  
   }

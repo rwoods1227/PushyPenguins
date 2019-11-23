@@ -29,7 +29,7 @@ class Penguin{
 
 		
 		this.img = new Image();
-		this.img.src = '../dist/images/penguin-gray.png';
+		this.img.src = './images/penguin-gray.png';
 	}
 
 	
@@ -103,7 +103,7 @@ update(delta) {
 	remove() {
 		this.game.remove(this);
 
-		// also trigger lose conditionw
+		this.game.lose = true;
 	};
 
 

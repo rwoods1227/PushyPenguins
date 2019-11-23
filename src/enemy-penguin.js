@@ -77,17 +77,11 @@ class Enemy{
      this.positionX = props.positionX
      this.positionY = 2;
      this.enemy = new Image();
-     this.enemy.src = '../dist/images/paperMarioPenguin.png';
+     this.enemy.src = './images/paperMarioPenguin.png';
+     // this is the source based off of main.js for firebase may break locally 
 
   }
 
-  // loadImage() {
-
-  //   ****not sure what to do with this */
-  //   this.enemy.onload = function () {
-  //     window.requestAnimationFrame(this.game.gameLoop);
-  //   };
-  // }
 
   drawFrame(frameX, frameY, canvasX, canvasY, ctx) {
     ctx.drawImage(this.enemy,

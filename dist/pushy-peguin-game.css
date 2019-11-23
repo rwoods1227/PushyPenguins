@@ -9,22 +9,123 @@
 	text-shadow: 2px 2px 1px #248742;
 } */
 
-#pushyPenguinGameContainer{
+.pushyPenguinGameContainer{
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	position: relative;
+	margin-bottom:15px;
 	/* background-image: url("./images/snow.png"); */
 	/* background-size: 400px 500px; */
-	width: auto;
+	/* width: auto;
 	height: auto;
 	margin: 0 auto;
 	padding-top: 5%;
-	padding-left: 30%;
+	padding-left: 30%; */
 } 
 
-#pushyPenguinGameContainer canvas {
-	background-image: url("./images/snow\ \(1\).png");
+.pushyPenguinGameContainer canvas {
+	/* background-image: url("./images/snow\ \(1\).png"); */
 	border: 1px solid black;
 	height: 700px;
 	width: 400px;
 }
+
+.openingFirst{
+	background-image: url("./images/grape-kun-opening1.jpeg");
+	background-repeat: no-repeat;
+ background-size: 400px 700px;
+}
+
+.openingSecond{
+	background-image: url("./images/grape-kun-opening2.jpg");
+		background-size: cover;
+}
+
+.openingThird{
+	background-image: url("./images/grape-kun-lose1.jpg");
+	background-repeat: no-repeat;
+  background-size: 400px 700px;
+}
+
+.openingFourth{
+	background-image: url("./images/grape-kun-lose3.jpg");
+	background-repeat: no-repeat;
+background-size: 400px 700px;
+}
+
+.openingFifth{
+	background-image: url("./images/bright-computer-and-girl.png");
+	background-repeat: no-repeat;
+ background-size: 400px 700px;
+}
+
+.openingSixth{
+	background-image: url("./images/computer-loadIn.jpg");
+		background-repeat: no-repeat;
+  background-size: 400px 700px;
+}
+.gameTime{
+	background-image: url("./images/snow\ \(1\).png");
+		background-size: cover;
+}
+
+.good-end{
+	background-image: url("./images/grape-kun-ending3.jpg");
+	background-repeat: no-repeat;
+  background-size: 400px 700px;
+}
+
+.bad-end{
+	background-image: url("./images/grape-kun-lose2.jpg");
+	background-repeat: no-repeat;
+  background-size: 400px 700px;
+}
+
+
+
+#game-title{
+	display: flex;
+	justify-content: center;
+	box-shadow: 2px 2px black;
+	z-index: 100;
+	background-color: aliceblue;
+	/* background-image: url("./images/penguin-background.jpg"); */
+}
+
+.keys{
+	display: flex;
+justify-content: center;
+	box-shadow: 2px 2px black;
+	z-index: 100;
+	background-color: aliceblue;
+	/* background-image: url("./images/penguin-background\ 2.jpg"); */
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	background-image: url("./images/ocean-background.jpg");
+	
+}
+
+body{
+	margin: 0;
+}
+
+.hidden{
+display: none;
+}
+
+#story{
+	width:300px;
+	height:400px;
+	background-color: aliceblue;
+}
+
+#story-text{
+	white-space: pre-wrap;
+	text-align: center;
+	font-size: large;
+}
+
