@@ -7,7 +7,7 @@ or if there is a timer and you have to survive for that amound of time.
 * Needs WASD motion controls
 * Death zone off the iceberg
 * Penguins can move you but you cant move penguins, big penguins push small ones out of way
-* Penguins have varying speed
+* Penguins have varying speeds
 
 Example: https://www.youtube.com/watch?v=-23577p1dWw
 
