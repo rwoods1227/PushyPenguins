@@ -16,6 +16,6 @@ Example: https://www.youtube.com/watch?v=-23577p1dWw
 * Add difficulty levels
 * Add big penguins
 * Add sounds
-* Add song
+* Add songs
 * Add splashes
 * have penguins affect each other
