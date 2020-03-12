@@ -10,7 +10,7 @@ or be pushed by penguin sprites into the water to lose. Deciding whether the gam
 * Penguins can move you but you cant move penguins, big penguins push small ones out of way
 * Penguins have varying speed
 
-Example: https://www.youtube.com/watch?v=-23577p1dWw
+Example of game: https://www.youtube.com/watch?v=-23577p1dWw
 
 ## Thigs to Add
 * Add difficulty levels
