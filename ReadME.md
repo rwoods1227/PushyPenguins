@@ -14,7 +14,7 @@ Example of game: https://www.youtube.com/watch?v=-23577p1dWw
 
 ## Thigs to Add
 * Add difficulty levels
-* Add big penguins
+* Add other penguins
 * Add sounds
 * Add songs
 * Add splashes
