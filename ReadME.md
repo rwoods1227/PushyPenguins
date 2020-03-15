@@ -17,5 +17,5 @@ Example of game: https://www.youtube.com/watch?v=-23577p1dWw
 * Add other penguins
 * Add sounds
 * Add songs
-* Add splashes
+* Add splashes for penguins
 * have penguins affect each other
